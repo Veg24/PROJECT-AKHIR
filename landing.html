@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LogiFest - Jasa Pengiriman</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="landing.css">
+</head>
+<body>
+    <!-- Navbar -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="logo">
+                <img src="assets/logifest-logo.png" alt="LogiFest">
+            </div>
+            <div class="nav-links">
+                <div class="dropdown">
+                    <a href="#" class="dropdown-toggle">Order <i class="fas fa-chevron-down"></i></a>
+                    <div class="dropdown-menu">
+                        <a href="#">Pick Up</a>
+                        <a href="#">Drop Off</a>
+                    </div>
+                </div>
+                <div class="dropdown">
+                    <a href="#" class="dropdown-toggle">International <i class="fas fa-chevron-down"></i></a>
+                    <div class="dropdown-menu">
+                        <a href="#">International Orders</a>
+                        <a href="#">International Tracking</a>
+                        <a href="#">International Shipping Rates</a>
+                    </div>
+                </div>
+                <a href="#">Layanan</a>
+                <div class="dropdown">
+                    <a href="#" class="dropdown-toggle">Information <i class="fas fa-chevron-down"></i></a>
+                    <div class="dropdown-menu">
+                        <a href="#">FAQ</a>
+                        <a href="#">Packing Information</a>
+                        <a href="#">Terms</a>
+                    </div>
+                </div>
+                <div class="dropdown">
+                    <a href="#" class="dropdown-toggle">About Us <i class="fas fa-chevron-down"></i></a>
+                    <div class="dropdown-menu">
+                        <a href="#">Company Profile</a>
+                        <a href="#">News & Event</a>
+                        <a href="#">Career</a>
+                        <a href="#">Contact Us</a>
+                    </div>
+                </div>
+            </div>
+            <div class="nav-buttons">
+                <div id="beforeLogin">
+                    <a href="#" class="signup-btn">Sign Up</a>
+                    <a href="index.html" class="login-btn">Login</a>
+                </div>
+                <div id="afterLogin" style="display: none;">
+                    <div class="dropdown">
+                        <div class="user-profile">
+                            <span id="userEmail"></span>
+                            <i class="fas fa-chevron-down"></i>
+                        </div>
+                        <div class="dropdown-menu">
+                            <a href="#">Profile</a>
+                            <a href="#">Settings</a>
+                            <a href="#" id="logoutBtn">Logout</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section dengan background image -->
+    <div class="hero-section">
+        <!-- Search Bar dengan icon -->
+        <div class="search-container">
+            <div class="search-bar">
+                <i class="fas fa-search"></i>
+                <input type="text" placeholder="Masukan nomor resi Anda minimal 10 nomor resi">
+                <button class="search-btn">Cari</button>
+            </div>
+        </div>
+
+        <!-- Service Cards dengan style baru -->
+        <div class="service-cards">
+            <div class="service-card">
+                <div class="card-icon">
+                    <img src="assets/track-icon.png" alt="Lacak Paket">
+                </div>
+                <span>Lacak Paket</span>
+            </div>
+            <div class="service-card">
+                <div class="card-icon">
+                    <img src="assets/tarif-icon.png" alt="Cek Tarif">
+                </div>
+                <span>Cek Tarif</span>
+            </div>
+            <div class="service-card">
+                <div class="card-icon">
+                    <img src="assets/droppoint-icon.png" alt="Cari Drop Point">
+                </div>
+                <span>Cari Drop Point</span>
+            </div>
+        </div>
+
+        <!-- Promo Section -->
+        <section class="promo-section">
+            <h2>Ada Promo Menarik Nih!!</h2>
+            <div class="promo-cards">
+                <img src="assets/promo1.jpg" alt="Promo 1">
+                <img src="assets/promo2.jpg" alt="Promo 2">
+            </div>
+        </section>
+
+        <!-- Info Section -->
+        <section class="info-section">
+            <div class="info-content">
+                <div class="info-text">
+                    <h2>Jasa Pengiriman Terpercaya dan Terpercaya, menggunakan jalur darat di seluruh Indonesia</h2>
+                    <p>Dengan LogiFest, pengiriman aman, cepat, tepat dan hemat menjadi mudah ke seluruh daerah di Indonesia dengan harga yang terjangkau.</p>
+                    <a href="#" class="learn-more">Lihat Selengkapnya</a>
+                </div>
+                <div class="info-image">
+                    <img src="assets/delivery-box.png" alt="Delivery Box">
+                </div>
+            </div>
+        </section>
+
+        <!-- Download Section -->
+        <section class="download-section">
+            <div class="download-content">
+                <div class="download-text">
+                    <h2>Download LogiFest Sekarang</h2>
+                    <p>Nikmati jasa Pengiriman yang lebih mudah dan cepat dengan aplikasi LogiFest di tangan Anda!</p>
+                    <div class="download-buttons">
+                        <a href="#" class="app-store">
+                            <img src="assets/app-store.png" alt="App Store">
+                        </a>
+                        <a href="#" class="play-store">
+                            <img src="assets/play-store.png" alt="Play Store">
+                        </a>
+                    </div>
+                </div>
+                <div class="download-image">
+                    <img src="assets/app-preview.png" alt="App Preview">
+                    <img src="assets/cs-avatar.png" alt="Customer Service" class="cs-avatar">
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <!-- Footer -->
+    <footer>
+        <div class="footer-content">
+            <div class="footer-section">
+                <h3>Follow Us</h3>
+                <div class="social-links">
+                    <a href="#"><i class="fab fa-facebook"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                    <a href="#"><i class="fab fa-tiktok"></i></a>
+                    <a href="#"><i class="fab fa-youtube"></i></a>
+                </div>
+            </div>
+            <div class="footer-section">
+                <h3>Quick Links</h3>
+                <a href="#">FAQ</a>
+                <a href="#">About Us</a>
+                <a href="#">Contact</a>
+            </div>
+            <div class="footer-section">
+                <h3>Here to Help</h3>
+                <a href="#">Support</a>
+                <a href="#">Terms</a>
+                <a href="#">Privacy</a>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2024 LogiFest. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="auth.js"></script>
+    <script src="landing.js"></script>
+</body>
+</html> 
